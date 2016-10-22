@@ -3,7 +3,7 @@ layout:     post
 title:      "Markdown"
 subtitle:   "基本语法介绍"
 date:       2016-09-16
-author:     "没什么了不起"
+author:     "木头"
 header-img: "img/post-bg-alitrip.jpg"
 catalog: true
 tags:
