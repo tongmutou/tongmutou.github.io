@@ -3,7 +3,7 @@ layout:     post
 title:      "App接口服务端关键词"
 subtitle:   "记录一下"
 date:       2016-09-22
-author:     "木头"
+author:     "tong木头"
 header-img: "img/post-bg-alitrip.jpg"
 catalog: true
 tags:
