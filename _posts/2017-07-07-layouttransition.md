@@ -24,7 +24,7 @@ android:animateLayoutChanges="true"
 ## 2. 在代码中添加动画
 
 
-```
+```java
 ViewGroup  container = (ViewGroup) findViewById(R.id.container);
 LayoutTransition transition = new LayoutTransition();
 container.setLayoutTransition(transition);
@@ -45,7 +45,7 @@ DISAPPEARING 作用于在容器中消失的view
 设置动画时长
 
 
-```
+```java
 LayoutTransition transition = new LayoutTransition();
 transition.setDuration(LayoutTransition.APPEARING, 800);
 ```
@@ -54,7 +54,7 @@ transition.setDuration(LayoutTransition.APPEARING, 800);
 设置动画开始的延迟时间
 
 
-```
+```java
 LayoutTransition transition = new LayoutTransition();
 transition.setStartDelay(LayoutTransition.APPEARING, 0);
 ```
@@ -62,7 +62,7 @@ transition.setStartDelay(LayoutTransition.APPEARING, 0);
 使用自己自定义的动画
 
 
-```
+```java
 LayoutTransition transition = new LayoutTransition();
 ObjectAnimator appearAnim = ObjectAnimator  
                 .ofFloat(null, "rotationY", 90f, 0)  
