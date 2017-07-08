@@ -48,8 +48,9 @@ header-img: "img/tag-bg.jpg"
 				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 				  </li> -->
 				 <div class="post-preview">
-				    <a href="{{ post.url | prepend: site.baseurl }}">
+				    
 				        <h2 class="post-title">
+				        	<a href="{{ post.url | prepend: site.baseurl }}">
                             {{ post.title }}
 				        </h2>
 				        {% if post.subtitle %}
